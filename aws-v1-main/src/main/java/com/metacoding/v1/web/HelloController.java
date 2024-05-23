@@ -25,6 +25,6 @@ public class HelloController {
 			num="내용은 알 수 없지만 화려한듯 보이는 내용";
         }
         
-        return "<h1>수정됨</h1>";
+        return "<h1>진짜 수정됐냐</h1>";
     }
 }

@@ -22,7 +22,7 @@ public class HelloController {
 			num="number 값이 -1로 요청했습니다";
         }else if(number == 0){ // warn 로그
             log.warn("/aws/v1 이 호출되었어요. warn 로그 #####################################");
-			num="number 값이 0로 요청했습니다";
+			num="내용은 알 수 없지만 화려한듯 보이는 내용";
         }
         
         return "<h1>"+num+"</h1>";
